@@ -1,5 +1,6 @@
 package ggmmo.serverutils;
 
+import ggmmo.serverutils.utils.MessageManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ServerUtils extends JavaPlugin {
@@ -10,7 +11,7 @@ public final class ServerUtils extends JavaPlugin {
         // Plugin startup logic
         plugin = this;
 
-
+        MessageManager.consoleGood("Plugin enabled");
     }
 
     @Override
