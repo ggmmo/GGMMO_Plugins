@@ -1,0 +1,4 @@
+name: ServerUtilities
+version: ${project.version}
+main: ggmmo.serverutilities.ServerUtilities
+description: Not for distribution, this plugin simply provides files that ease certain tasks in development
