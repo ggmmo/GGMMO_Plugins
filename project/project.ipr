@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="serverutilities" />
+        <module name="npccreator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="npccreator" target="1.8" />
       <module name="permissions" target="1.8" />
       <module name="serverutilities" target="1.8" />
       <module name="serverutils" target="1.8" />
@@ -17,6 +19,7 @@
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/npccreator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serverutilities" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testplugin" charset="UTF-8" />
   </component>
@@ -35,6 +38,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/serverutilities/pom.xml" />
+        <option value="$PROJECT_DIR$/npccreator/pom.xml" />
       </list>
     </option>
   </component>
@@ -164,6 +168,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/npccreator/npccreator.iml" filepath="$PROJECT_DIR$/npccreator/npccreator.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverutilities/serverutilities.iml" filepath="$PROJECT_DIR$/serverutilities/serverutilities.iml" />
     </modules>
   </component>

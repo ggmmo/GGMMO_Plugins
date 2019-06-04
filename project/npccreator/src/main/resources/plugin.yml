@@ -1,0 +1,8 @@
+name: NPCCreator
+version: ${project.version}
+main: ggmmo.npccreator.NPCCreator
+api-version: 1.13
+prefix: GGMMO
+authors: [Intrepid249, The_Pale_One, fatherbeno, FerousFolly]
+description: A plugin to edit custom NPCs and manage quests
+website: https://github.com/ggmmo/GGMMO_Plugins
