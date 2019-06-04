@@ -1,9 +1,9 @@
 package ggmmo.npccreator.utils.messages;
 
+import com.sun.istack.internal.NotNull;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.jetbrains.annotations.NotNull;
 
 public class MessageManager {
     private JavaPlugin plugin;
