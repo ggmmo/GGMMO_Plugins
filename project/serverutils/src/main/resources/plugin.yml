@@ -1,6 +1,0 @@
-name: ServerUtils
-version: ${project.version}
-main: ggmmo.serverutils.ServerUtils
-authors: [Intrepid249]
-description: A collection of commands, wands and more that assist the development of the GGMMO server
-website: https://github.com/ggmmo/ggmmo_plugins

@@ -1,6 +1,6 @@
-package ggmmo.serverutils.utils;
+package ggmmo.serverutilities.utils.packets;
 
-import ggmmo.serverutils.enums.PacketRecipient;
+
 import net.minecraft.server.v1_12_R1.Packet;
 import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.libs.jline.internal.Nullable;

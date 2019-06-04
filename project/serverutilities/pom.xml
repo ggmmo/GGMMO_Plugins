@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ggmmo</groupId>
-    <artifactId>serverutils</artifactId>
-    <version>1.0</version>
+    <artifactId>serverutilities</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Serverutils</name>
+    <name>ServerUtilities</name>
 
-    <description>A collection of commands, wands and more that assist the development of the GGMMO server</description>
+    <description>Not for distribution, this plugin simply provides files that ease certain tasks in development
+    </description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <url>https://github.com/ggmmo/ggmmo_plugins</url>
 
     <build>
         <defaultGoal>clean package</defaultGoal>
@@ -57,7 +57,7 @@
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>sonatype</id>
@@ -79,8 +79,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
+            <groupId>org.bukkit</groupId>
+            <artifactId>CraftBukkit</artifactId>
             <version>1.12.2-R0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

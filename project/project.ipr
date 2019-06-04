@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="serverutils" />
+        <module name="serverutilities" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="permissions" target="1.8" />
+      <module name="serverutilities" target="1.8" />
       <module name="serverutils" target="1.8" />
+      <module name="testplugin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/serverutils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serverutilities" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testplugin" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
     <list size="1">
@@ -30,7 +34,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/serverutils/pom.xml" />
+        <option value="$PROJECT_DIR$/serverutilities/pom.xml" />
       </list>
     </option>
   </component>
@@ -160,7 +164,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/serverutils/serverutils.iml" filepath="$PROJECT_DIR$/serverutils/serverutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverutilities/serverutilities.iml" filepath="$PROJECT_DIR$/serverutilities/serverutilities.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -236,6 +240,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180712.114550-97-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.bukkit:CraftBukkit:1.12.2-R0.1-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/CraftBukkit/1.12.2-R0.1-SNAPSHOT/CraftBukkit-1.12.2-R0.1-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/CraftBukkit/1.12.2-R0.1-SNAPSHOT/CraftBukkit-1.12.2-R0.1-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.hamcrest:hamcrest-core:1.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
@@ -267,17 +282,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.spigotmc:spigot:1.12.2-R0.1-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.yaml:snakeyaml:1.19">
